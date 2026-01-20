@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="BMI Calculator.css">
+</head>
+
+<body>
+
+    <div class="calculator-container">
+        <div class="calculator-card">
+            <h1>BMI Calculator</h1>
+            <p>Check your body mass inded </p>
+
+            <div class="input-group">
+                <label for="hieght">Height(cm)</label>
+                <input type="number" class="height" placeholder="e.h 160">
+            </div>
+
+            <div class="input-group">
+                <Label for="hieght">Width(kg)</Label>
+                <input type="number" class="weight" placeholder="e.g 70">
+            </div>
+            <button class="calculatebtn">
+                Calculate BMI
+            </button>
+
+            <div class="result-group">
+                <div class="result-value">--</div>
+                <div class="result-catagory"></div>
+            </div>
+            
+            <div class="scale-group">
+                <div class="scale-div underweight">
+                    <h4>Underweight</h4>
+                    <span>18.5</span>
+                </div>
+                  <div class="scale-div normal">
+                    <h4>Normal</h4>
+                    <span>18.5-24.9</span>
+                </div>  <div class="scale-div overweight ">
+                    <h4>Overweight</h4>
+                    <span>25.5-29.9</span>
+                </div>  <div class="scale-div obase">
+                    <h4>Obase</h4>
+                    <span>>30</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./BMI Calculator.js"></script>
+</body>
+
+</html>
