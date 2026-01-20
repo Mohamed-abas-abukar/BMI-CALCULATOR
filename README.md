@@ -2,9 +2,11 @@
 A simple bmi calculator that do evaluate your heigt and weight 
 
 # Features 
-. Calculate Height
-. Calculate Weight 
-. Knowing your level weight 
+. Enter Height
+. Enter Weight 
+. Calculate BMI fast 
+. Display the result 
+
 
 # Teachnology 
 . HTML 
